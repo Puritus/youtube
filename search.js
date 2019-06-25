@@ -4,6 +4,7 @@ $(function() {
     
     // call fancybox pluggin
     $(".fancyboxIframe").fancybox({
+        position: relative,
         maxWidth    : 900,
         maxHeight    : 600,
         fitToView    : false,
